@@ -25,7 +25,7 @@ Follow the below steps to install Nodejs onto your system:
 
 **Step 3**: Mark the checkbox and click next.
 
-![altImage](https://i.postimg.cc/RV6By6xC/Whats-App-Image-2023-11-23-at-16-13-50.jpg
+![altImage](https://i.postimg.cc/RV6By6xC/Whats-App-Image-2023-11-23-at-16-13-50.jpg)
 
 
 
