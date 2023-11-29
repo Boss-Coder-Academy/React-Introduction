@@ -226,9 +226,7 @@ const [count, setCount] = useState(0);: useState(0) initializes count to 0, and 
 + <button onClick={() => setCount(count + 1)}>Increment</button>: Increments the count value by calling setCount when the button is clicked.
 
 
-+ **Lifecycle Methods (Class Components)**
-
-Class components have lifecycle methods that execute at different stages of a component's lifecycle, such as mounting, updating, and unmounting.
++ **Lifecycle Methods (Class Components)**: Class components have lifecycle methods that execute at different stages of a component's lifecycle, such as mounting, updating, and unmounting.
 
 **Example**:
 
@@ -261,6 +259,7 @@ export default LifecycleComponent;
 + **componentDidMount() { ... }**: This method executes after the component is mounted (inserted into the DOM). It logs a message indicating that the component has been mounted.
   
 + **componentWillUnmount() { ... }**: This method executes just before the component is removed from the DOM. It logs a message indicating that the component will be unmounted.
+  
 + **render() { ... }**: The render method is responsible for rendering the component's UI. It returns a simple <p> element.
 
 
@@ -511,7 +510,7 @@ export default App;
 
 
 
-**Do not forget to add necessary images to the `images` folder inside `.utils` **
+**Do not forget to add necessary images to the `images` folder inside `.utils`**
 
 
 
