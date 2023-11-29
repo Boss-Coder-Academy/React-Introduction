@@ -136,7 +136,7 @@ export default Counter;
 + **constructor(props) { ... }**: Initializes the component's state with a count property set to 0.
 + **this.state = { count: 0 };**: Initializes the state object within the component's constructor.
 + **render() { ... }**: Defines the render method responsible for rendering the component's UI.
-+ **<p>Count: {this.state.count}</p>**: Displays the current count value from the component's state.
++ **`<p>`Count: {this.state.count}`</p>`**: Displays the current count value from the component's state.
 + **<button onClick={() => this.setState({ count: this.state.count + 1 })}>Increment</button>**: Renders a button that, when clicked, updates the count by calling setState, which triggers a re-render with the updated state.
 
 
