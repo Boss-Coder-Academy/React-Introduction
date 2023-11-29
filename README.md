@@ -88,6 +88,7 @@ export default Greeting;
 
 export default FunctionalComponent;
 ```
+
 **Explanation**:
 
 + **import React from 'react';**: Imports the React library.
