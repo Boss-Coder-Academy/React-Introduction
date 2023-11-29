@@ -93,7 +93,7 @@ export default FunctionalComponent;
 
 + **import React from 'react';**: Imports the React library.
 + **function Greeting(props) { ... }**: Declares a functional component named Greeting that accepts props as an argument.
-+ **return <h1>Hello, {props.name}!</h1>;**: Returns JSX representing an <h1> element that greets the user with the name passed through props.
++ **return `<h1>`Hello, {props.name}!`</h1>`;**: Returns JSX representing an `<h1>` element that greets the user with the name passed through props.
 + **export default Greeting;**: Exports the component to be used elsewhere in the application.
 
 
@@ -186,7 +186,7 @@ const element = <h1>Hello, JSX!</h1>;
 ```
 **Example Explanation**:
 
-+ **const element = <h1>Hello, JSX!</h1>;**: This line demonstrates the use of JSX, which allows HTML-like syntax within JavaScript. It creates a variable element representing an <h1> element with the text "Hello, JSX!".
++ **const element = `<h1>`Hello, JSX!`</h1>`;**: This line demonstrates the use of JSX, which allows HTML-like syntax within JavaScript. It creates a variable element representing an `<h1>` element with the text "Hello, JSX!".
 
 
 ## State Management
@@ -221,7 +221,7 @@ export default Counter;
 Counter Functional Component: This component manages its own state using the useState hook. It initializes a state variable count with an initial value of 0.
 const [count, setCount] = useState(0);: useState(0) initializes count to 0, and setCount is a function used to update count.
 
-+ <p>Count: {count}</p>: Displays the current count value stored in the count state variable.
++ `<p>`Count: {count}`</p>`: Displays the current count value stored in the count state variable.
 
 + <button onClick={() => setCount(count + 1)}>Increment</button>: Increments the count value by calling setCount when the button is clicked.
 
@@ -257,7 +257,9 @@ export default LifecycleComponent;
 **Example Explanation**:
 
 + **LifecycleComponent Class Component**: This class component demonstrates lifecycle methods available in class components.
-componentDidMount() { ... }: This method executes after the component is mounted (inserted into the DOM). It logs a message indicating that the component has been mounted.
+  
++ **componentDidMount() { ... }**: This method executes after the component is mounted (inserted into the DOM). It logs a message indicating that the component has been mounted.
+  
 + **componentWillUnmount() { ... }**: This method executes just before the component is removed from the DOM. It logs a message indicating that the component will be unmounted.
 + **render() { ... }**: The render method is responsible for rendering the component's UI. It returns a simple <p> element.
 
@@ -509,7 +511,7 @@ export default App;
 
 
 
-**Do not forget to add necessary images to the ‘images’ folder inside .utils’ **
+**Do not forget to add necessary images to the `images` folder inside `.utils` **
 
 
 
