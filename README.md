@@ -1,5 +1,21 @@
 # React (Introduction)
 
+### Agenda
+
+1. **Introduction**
+2. **Setup and Installation**:
+3. **Create React App**
+4. **Components in React**:
+      + Functional Components
+      + Class Components
+5. **Props (Properties)**
+6. **JSX (JavaScript XML)**
+7. **State Management**
+8. **Assignment**
+
+---
+
+
 ## Introduction to React
 
 React is a popular JavaScript library used for building user interfaces. It allows developers to create interactive and dynamic UI components, making it easier to develop complex web applications.
