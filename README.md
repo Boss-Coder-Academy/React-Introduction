@@ -513,7 +513,6 @@ import videoCard from './components/videoCard';
 function App() {
   return (
     <div>
-      <Header/>
       <videoCard />
     </div>
   );
