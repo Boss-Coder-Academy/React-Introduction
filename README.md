@@ -282,13 +282,9 @@ export default LifecycleComponent;
 
 ## Assignment 
 
+For the following assignments use the given Figma link:
+
 [Figma Link for assignments](https://shorturl.at/clP68)
-
-**Figma Link**: 
-
-```bash
-[https://shorturl.at/clP68](https://www.figma.com/file/G63bpo5dcQTYk2VrjZSjZD/BCA-_Project_01--%2F-Coderflix-(OTT-Platform-)?type=design&node-id=0%3A1&mode=dev)
-```
 
                            
 **Task 1**: Design a Navigation Bar using React.
